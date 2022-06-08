@@ -1,19 +1,22 @@
 #include "main.h"
+
 /**
-*main - Print _putchar
-*
-*Return: Always (0)
-*/
+ * main - Print holberton
+ *
+ * Return: Always (0)
+ */
 int main(void)
 {
-    char *ch = "_putchar";
+	char *c = "_putchar";
 
-    int i;
+	int i;
 
-    for (i = 0; i < 8; i++)
-        _putchar(ch[i]);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
 
-    _putchar ('\n');
+	_putchar('\n');
 
-    return (0);
+	return (0);
 }
