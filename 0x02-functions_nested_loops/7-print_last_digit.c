@@ -4,18 +4,19 @@
  *@i: integer attributes
  *Return: the last digit
  */
-int l;
+
 int print_last_digit(int i)
 {
-	l=i%10;
+	int l;
+	l = i % 10;
 	if (l < 0)
 	{
-		_putchar(-l+48);
+		_putchar(-l + 48);
 		return (-l);
 	}
 	else
 	{
-		_putchar(l+48);
+		_putchar(l + 48);
 		return (l);
 	}
 
