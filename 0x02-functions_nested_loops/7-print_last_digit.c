@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *prints last digit of a number
+ *print_last_digit() - prints last digit of a number
+ *@i: integer attributes
+ *Return: the last digit
  */
 int l;
 int print_last_digit(int i)
