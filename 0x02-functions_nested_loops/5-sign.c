@@ -4,7 +4,8 @@
  *@n: int ASCII character
  *Return: (1) for n>0 (0) for n==0 (-1) for n<0
  */
-int print_sign(int n){
+int print_sign(int n)
+{
 	if (n > 0)
 	{
 		_putchar('+');
