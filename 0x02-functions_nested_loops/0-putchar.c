@@ -1,8 +1,8 @@
-//#include <main.h>
+#include <main.h>
 /*
 *prints _putchar 
 */
 int main(){
-    putchar("_putchar");
+    _putchar("_putchar");
     return 0;
 }
