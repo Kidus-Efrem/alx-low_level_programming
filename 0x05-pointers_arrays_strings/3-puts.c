@@ -18,7 +18,7 @@ int main(void){
 	int size = sizeof(name)/sizeof(name[0]);
 	int x = 0;
 
-	while() name[x] != '\0')
+	while (name[x] != '\0')
 		x++;
 		printf("%c",name[size-x-1]);
 
