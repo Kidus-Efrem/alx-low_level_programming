@@ -13,17 +13,12 @@
  		putchar(str[x]);
  	putchar('\n');
  }*/
-int main(void){
-	char name[] = "kidus";
-	int size = sizeof(name)/sizeof(name[0]);
-	int x = 0;
+void _puts(char *str){
+	int x;
 
-	while (name[x] != '\0')
-		{
-			x++;
-			_puts ("%c",name[size-x-1]);
-		}
-
+	for (x = 0; s[x] != '\0'; x++)
+		_putchar(s[x]);
+		_putchar('\0')
 	return (0);
 
 }
