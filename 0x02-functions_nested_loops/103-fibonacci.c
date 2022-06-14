@@ -14,6 +14,6 @@ int main(void)
 		y=x;
 		x=+y;
 	}
-	printf(%i,x);
+	printf('%i',x);
 	return (0);
 }
