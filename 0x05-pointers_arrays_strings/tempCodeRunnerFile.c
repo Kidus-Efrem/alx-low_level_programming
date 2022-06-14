@@ -1,0 +1,1 @@
+sizeof(name)/sizeof(name[0])
