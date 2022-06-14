@@ -1,7 +1,7 @@
 /*
 */
 #include "main.h"
-#include "stdio.h"
+
 
 
 int main(void)
@@ -14,6 +14,6 @@ int main(void)
 		y=x;
 		x=+y;
 	}
-	printf('%i',x);
+	_putchar(x);
 	return (0);
 }
