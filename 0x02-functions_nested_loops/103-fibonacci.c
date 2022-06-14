@@ -14,6 +14,6 @@ int main(void)
 		y=x;
 		x=+y;
 	}
-	_putchar(x);
+	putchar(x);
 	return (0);
 }
