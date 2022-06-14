@@ -16,9 +16,10 @@
 int main(void){
 	char name[] = "kidus";
 	int size = sizeof(name)/sizeof(name[0]);
-	int x=0;
+	int x = 0;
 
-	for(x;name[x] != '\0';x++)
+	while() name[x] != '\0')
+		x++;
 		printf("%c",name[size-x-1]);
 
 	return (0);
