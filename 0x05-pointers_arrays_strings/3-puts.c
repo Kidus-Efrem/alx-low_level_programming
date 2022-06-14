@@ -5,14 +5,14 @@
  * @str: string to output
  * Description - prints text to stdout
 */
-// void _puts(char str[])
-// {
-// 	int x;
+/*void _puts(char str[])
+ {
+ 	int x;
 
-// 	for (x = 0; str[x] != '\0'; x++)
-// 		putchar(str[x]);
-// 	putchar('\n');
-// }
+ 	for (x = 0; str[x] != '\0'; x++)
+ 		putchar(str[x]);
+ 	putchar('\n');
+ }*/
 int main(void){
 	char name[]="kidus";
 	int size=sizeof(name)/sizeof(name[0]);
