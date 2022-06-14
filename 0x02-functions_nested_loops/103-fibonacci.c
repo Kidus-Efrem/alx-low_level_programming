@@ -8,7 +8,7 @@ int main(void)
 	int x=1;
 	int y;
 
-	while(x <= 4,000,000)
+	while(x <= 4000000)
 	{
 		y=x;
 		x=+y;
