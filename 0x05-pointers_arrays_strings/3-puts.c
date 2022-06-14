@@ -21,7 +21,7 @@ int main(void){
 	while (name[x] != '\0')
 		{
 			x++;
-		printf("%c",name[size-x-1]);
+			_puts ("%c",name[size-x-1]);
 		}
 
 	return (0);
