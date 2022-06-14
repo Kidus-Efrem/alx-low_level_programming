@@ -19,8 +19,10 @@ int main(void){
 	int x = 0;
 
 	while (name[x] != '\0')
-		x++;
+		{
+			x++;
 		printf("%c",name[size-x-1]);
+		}
 
 	return (0);
 
